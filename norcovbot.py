@@ -7,8 +7,8 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-    await client.change_presence(status=discord.Status.online, activity=discord.Game("음반작업"))
-    print("준비됨") # I'm Ready!
+    await client.change_presence(status=discord.Status.online, activity=discord.Game("야끼런"))
+    print("준비됐다이기") #준비
     print(client.user.name)
     print(client.user.id)
 
@@ -20,7 +20,7 @@ async def on_message(message):
     #맵
 
     if message.content == "!맵이름":
-        await message.channel.send("ex) !커스텀 !인터체인지 같이 맵이름을 입력해라 이기")
+        await message.channel.send("ex) ```!커스텀 !인터체인지 처럼 맵 이름을 입력해라 이기```")
 
     if message.content == "!커스텀":
         await message.channel.send("https://cdn.discordapp.com/attachments/683360793215238307/683360890376159282/custom.jpg")
@@ -60,7 +60,7 @@ async def on_message(message):
     if message.content == "!factory":
         await message.channel.send("https://forum.escapefromtarkov.com/uploads/monthly_2017_08/Tarkin_v4_+tunels_Factory.jpg.686b65ccd9f64f83144e0ed3fe6ab98a.jpg")
 
-    #잡다한것
+    #일반1
 
     if message.content == "!치료":
         await message.channel.send("https://cdn.discordapp.com/attachments/682230933600206959/682669173704491018/viewimage.png")
@@ -124,9 +124,9 @@ async def on_message(message):
     if message.content == "!북미서버":
         await message.channel.send("https://drive.google.com/file/d/1eo70IxUzy4mcKJBdCaK060ihwdLBXsq_/view?usp=sharing ```구글 드라이브에서 html파일을 받고\nC:Battlestate Games/BsgLauncher/Content 폴더에 붙여넣기 (게임 설치한 폴더위치가 다르면 거기로)\n서버는 캘리보니아랑 워싱턴DC```")
 
-    #넝담
-
-
+        
+    #일반2
+    
 
     if message.content == "!갤러리":
         await message.channel.send("https://gall.dcinside.com/mgallery/board/lists?id=eft")
@@ -192,10 +192,8 @@ async def on_message(message):
     if message.content == "북딱슨":
         await message.channel.send(":koala:")
 
-    if message.content == "!감탄사":
-        await message.channel.send("야~~~기분노무딱응디북섹딱스좋노이기이기공중제비돈다이기야노무기분좋다!")
     
-    #디시콘
+    #디시콘(test)
 
     if message.content == "~글카":
         await message.channel.send("https://cdn.discordapp.com/attachments/684157019258748946/684158796947390620/icon_18.png")
