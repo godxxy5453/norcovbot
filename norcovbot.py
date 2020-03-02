@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 
 import discord, asyncio
+import os
 
 token = "NjgyOTU5OTU4NTY3ODEzMzI3.XlknpA.wXrZ2sqExiDLPmjqZrLCdTtCt1I"
 client = discord.Client()
@@ -220,5 +221,5 @@ async def on_message(message):
         await message.channel.send("```!맵이름, !치료, !회복, !가성비, !매크로, !보스, !방어구, !시세, !파밍, !그래픽, !피라미드, !케이스, !북미, !서버, !스킬, !스킬작, !시스템, !은신처, !퀘스트```")
 
 
-
-client.run(token)
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
