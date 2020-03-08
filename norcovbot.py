@@ -124,7 +124,17 @@ async def on_message(message):
     if message.content == "!북미서버":
         await message.channel.send("https://drive.google.com/file/d/1eo70IxUzy4mcKJBdCaK060ihwdLBXsq_/view?usp=sharing ```구글 드라이브에서 html파일을 받고\nC:Battlestate Games/BsgLauncher/Content 폴더에 붙여넣기 (게임 설치한 폴더위치가 다르면 거기로)\n서버는 캘리보니아랑 워싱턴DC```")
 
+    if message.content == "!탄약":
+        await message.channel.send("https://cdn.discordapp.com/attachments/683360793215238307/686210996603453440/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211012428693524/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211031445667840/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211046196903936/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211059912015973/viewimage.png")
+       
+    if message.content == "!관통":
+        await message.channel.send("https://cdn.discordapp.com/attachments/683360793215238307/686210996603453440/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211012428693524/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211031445667840/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211046196903936/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211059912015973/viewimage.png")
         
+    if message.content == "!총알":
+        await message.channel.send("https://cdn.discordapp.com/attachments/683360793215238307/686210996603453440/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211012428693524/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211031445667840/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211046196903936/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211059912015973/viewimage.png")    
+     
+    
+    
     #일반2
     
 
