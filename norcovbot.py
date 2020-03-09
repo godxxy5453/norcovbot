@@ -132,7 +132,9 @@ async def on_message(message):
         
     if message.content == "!총알":
         await message.channel.send("https://cdn.discordapp.com/attachments/683360793215238307/686210996603453440/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211012428693524/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211031445667840/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211046196903936/viewimage.png\nhttps://cdn.discordapp.com/attachments/683360793215238307/686211059912015973/viewimage.png")    
-     
+    
+    if message.content == "!모딩":
+        await message.channel.send("https://docs.google.com/spreadsheets/d/1yHyVEVB5oN0qL_pR1qTNP1_ICmzJ3SCFJQNb6XDM_DQ/htmlview")
     
     
     #일반2
