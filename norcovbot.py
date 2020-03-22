@@ -7,7 +7,7 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-    await client.change_presence(status=discord.Status.online, activity=discord.Game("야끼런"))
+    await client.change_presence(status=discord.Status.online, activity=discord.Game("부엉이바위에서 힘작"))
     print("준비됐다이기") #준비
     print(client.user.name)
     print(client.user.id)
@@ -20,7 +20,7 @@ async def on_message(message):
     #맵
 
     if message.content == "!맵이름":
-        await message.channel.send("ex) ```!커스텀 !인터체인지 처럼 맵 이름을 입력해라 이기```")
+        await message.channel.send("ex) ```!커스텀 !인터체인지 같이 맵 이름을 입력해라 이기```")
 
     if message.content == "!커스텀":
         await message.channel.send("https://cdn.discordapp.com/attachments/683360793215238307/683360890376159282/custom.jpg")
@@ -153,16 +153,16 @@ async def on_message(message):
         await message.channel.send("https://cdn.discordapp.com/attachments/682958432675823708/682974731884167230/20200228_012656.png")
 
     if message.content == "@노무현":
-        await message.channel.send("저는 살아있습니다")
+        await message.channel.send("예아")
 
 
 
     #ㅇㅂ
 
-    if message.content == "!응디":
+    if message.content == "응디":
         await message.channel.send("흔드르라 이기야")
 
-    if message.content == "!응디시티":
+    if message.content == "응디시티":
         await message.channel.send("https://www.youtube.com/watch?v=vYibVU6Wbas")
 
     if message.content == "하아":
@@ -203,6 +203,14 @@ async def on_message(message):
 
     if message.content == "북딱슨":
         await message.channel.send(":koala:")
+        
+    if message.content == "아":
+        await message.channel.send("내가 받았다")
+       
+    if message.content == "준":
+        await message.channel.send("식")
+        
+    
 
     
     #디시콘(test)
@@ -221,13 +229,13 @@ async def on_message(message):
     #help
 
     if message.content == "양숙아":
-        await message.channel.send("```!맵이름, !치료, !회복, !가성비, !매크로, !보스, !방어구, !시세, !파밍, !그래픽, !피라미드, !케이스, !북미, !서버, !스킬, !스킬작, !시스템, !은신처, !퀘스트```")
+        await message.channel.send("```!맵이름, !치료, !회복, !가성비, !매크로, !보스, !방어구, !시세, !파밍, !그래픽, !피라미드, !케이스, !북미, !서버, !스킬, !스킬작, !시스템, !은신처, !퀘스트, !탄약, !관통, !총알, !모딩```")
 
     if message.content == "무현아":
-        await message.channel.send("```!맵이름, !치료, !회복, !가성비, !매크로, !보스, !방어구, !시세, !파밍, !그래픽, !피라미드, !케이스, !북미, !서버, !스킬, !스킬작, !시스템, !은신처, !퀘스트```")
+        await message.channel.send("```!맵이름, !치료, !회복, !가성비, !매크로, !보스, !방어구, !시세, !파밍, !그래픽, !피라미드, !케이스, !북미, !서버, !스킬, !스킬작, !시스템, !은신처, !퀘스트, !탄약, !관통, !총알, !모딩```")
 
     if message.content == "노무쿤":
-        await message.channel.send("```!맵이름, !치료, !회복, !가성비, !매크로, !보스, !방어구, !시세, !파밍, !그래픽, !피라미드, !케이스, !북미, !서버, !스킬, !스킬작, !시스템, !은신처, !퀘스트```")
+        await message.channel.send("```!맵이름, !치료, !회복, !가성비, !매크로, !보스, !방어구, !시세, !파밍, !그래픽, !피라미드, !케이스, !북미, !서버, !스킬, !스킬작, !시스템, !은신처, !퀘스트, !탄약, !관통, !총알, !모딩```")
 
 
 access_token = os.environ["BOT_TOKEN"]
